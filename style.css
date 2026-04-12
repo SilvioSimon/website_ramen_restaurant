@@ -59,6 +59,10 @@ a {
   transition-duration: 0.1s;
 }
 
+.nav-container {
+    gap: 40px;
+}
+
 /*our_menu_price*/
 table,
 td {
@@ -151,16 +155,20 @@ nav {
   border: solid white 2px;
   background-color: #9f0908;
   padding: 8px;
+  gap: 16px;
   border-radius: 12px;
   width: 235px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  white-space: nowrap;
+  line-height: 1;
+  transition-duration: 0.2s;
 }
 
 .phone-button:hover {
   background-color: #c41212;
-  transform: scale(1.02);
+  transform: scale(1.05);
   transition-duration: 0.2s;
 }
 
