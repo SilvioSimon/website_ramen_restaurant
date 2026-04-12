@@ -315,7 +315,17 @@ p.location-container-object {
 img.location-container-object {
   height: 24px;
 }
+
+iframe {
+  padding-bottom: 64px;
+}
+
 /*footer*/
+footer {
+  background-color: #0a141e;
+  height: 144px;
+}
+
 .footer-logo img {
   height: 44px;
 }
