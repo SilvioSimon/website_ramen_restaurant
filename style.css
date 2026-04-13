@@ -146,7 +146,7 @@ footer {
 nav {
   display: flex;
   flex-direction: row;
-  width: 44vw;
+  
   justify-content: space-between;
   align-items: center;
 }
@@ -356,4 +356,43 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .navlink {
+    display: none;
+  }
+
+  .nav-container {
+    flex-direction: row-reverse;
+  }
+
+  .top-header {
+    margin: 0 64px;
+  }
+
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+  .navlink {
+    display: none;
+  }
+
+  .nav-container {
+    flex-direction: row-reverse;
+  }
+
+  .top-header {
+    margin: 0 64px;
+  }
+
+
+
+  .pick-con {
+  flex-direction: column;
+  gap: 64px;
+  }
 }
