@@ -389,6 +389,7 @@ footer {
   }
 
   .phone-button {
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     width: 175px;
     padding: 4px;
@@ -411,8 +412,33 @@ footer {
     font-size: 20px;
   }
 
+  .order-section {
+    text-align: center;
+  }
+
+  .order-section-object {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  #how-to-order {
+    padding: 0 16px;
+    white-space: nowrap;
+    margin: 128px 0 128px;
+  }
+
   .pick-con {
     flex-direction: column;
+    align-items:center; 
     gap: 64px;
   }
+
+  .pick-container {
+    width: 80%;
+  }
+
+  .pick-container-object {
+    font-size: 32px;
+  }
+
 }
