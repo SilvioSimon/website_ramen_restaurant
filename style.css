@@ -119,6 +119,7 @@ footer {
 
 .hero-section {
   height: 100vh;
+  min-height: 100dvh;
   background-image: url(./img/1_hero/JPG/hero_bg.jpg);
   background-size: cover;
   background-position: bottom;
@@ -358,6 +359,14 @@ footer {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
+   .hero-section-container h1{
+    font-size: 80px;
+  }
+
+  .hero-section-container p{
+    font-size: 22px;
+  }
+
   .navlink {
     display: none;
   }
@@ -369,9 +378,61 @@ footer {
   .top-header {
     margin: 0 12px;
   }
+
+  section h2 {
+    font-size: 64px;
+  }
+
+   .order-section {
+    margin: 120px 12px;
+  }
+
+   .order-section-object {
+    font-size: 64px;
+  }
+
+  #how-to-order {
+    margin: 128px 0 128px;
+  }
+
+  .pick-container-object{
+    font-size: 48px;
+  }
+
+  .menu-con {
+    font-size: 32px;
+    margin: 16px 32px;
+  }
+
+  .menu-section img {
+    height: 300px;
+    width: auto;
+  }
+
+  .menu-section-object {
+    font-size: 64px;
+  }
+
+  .menu-section th{
+    font-size: 48px;
+  }
+
+  .menu-section td{
+    font-size: 22px;
+  }
+
+   .footer-con {
+    margin: 0 16px;
+    justify-content: space-between;
+  }
+  
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
+  .hero-section-container h1 {
+    font-size: 48px;
+  }
+
   .navlink {
     display: none;
   }
@@ -441,7 +502,7 @@ footer {
   }
 
   .menu-con{
-    margin: 0 0px;
+    margin: 0px 0px;
   }
 
   .menu-container-tonkatsu, .menu-container-spicy_miso,
@@ -457,7 +518,7 @@ footer {
   }
 
   .menu-section img {
-    height: 300px;
+    height: 280px;
     width: auto;
   }
 
