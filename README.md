@@ -1,6 +1,6 @@
 A simple and modern static website for a fictional Japanese ramen restaurant called "Sakura Ramen". Built only with HTML and CSS, focusing on layout, design, and responsive styling.
 
-## ✨ Features
+## Features
 
 - 📋 Static restaurant menu (ramen, sides, drinks)
 - 🎨 Clean Japanese-inspired design
@@ -8,7 +8,7 @@ A simple and modern static website for a fictional Japanese ramen restaurant cal
 - 🧩 Pure HTML & CSS (no JavaScript)
 - 🖼️ Focus on UI/UX and visual presentation
 
-## 🛠️ Built With
+## Built With
 
 - HTML5  
 - CSS3  
