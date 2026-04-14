@@ -408,7 +408,6 @@ footer {
   }
 
   .hero-section-object + p {
-    align-items: center;
     font-size: 20px;
   }
 
@@ -423,7 +422,7 @@ footer {
 
   #how-to-order {
     padding: 0 16px;
-    white-space: nowrap;
+    white-space: normal;
     margin: 128px 0 128px;
   }
 
@@ -433,12 +432,80 @@ footer {
     gap: 64px;
   }
 
-  .pick-container {
-    width: 80%;
-  }
-
   .pick-container-object {
     font-size: 32px;
   }
 
-}
+  .menu-section-object {
+    font-size: 48px;
+  }
+
+  .menu-con{
+    margin: 0 0px;
+  }
+
+  .menu-container-tonkatsu, .menu-container-spicy_miso,
+  .menu-container-shio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-text, .menu-text-reverse {
+    margin: 0;
+    text-align: left;
+  }
+
+  .menu-section img {
+    height: 300px;
+    width: auto;
+  }
+
+  .menu-section th{
+    font-size: 48px;
+  }
+
+  .menu-section td{
+    font-size: 22px;
+  }
+
+  .location-container-object{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .location-container{
+    display: flex;
+    align-items: center;
+    margin: 32px 32px;
+  }
+
+
+  .location-section-object {
+    font-size: 48px;
+  }
+
+  .location-container-object{
+    font-size: 22px;
+    padding-left: 0%;
+  }
+
+  .location-container-object + img {
+    height: 20px;
+    padding-left: 16px;
+  }
+
+   .footer-con {
+    margin: 0 16px;
+    justify-content: space-between;
+  }
+
+  .footer-logo{
+    width: 44px;
+    overflow: hidden;
+  }
+
+  .footer-logo img {
+    display: block;
+  }
+  }
