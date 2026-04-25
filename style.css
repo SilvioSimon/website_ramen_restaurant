@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  display: block;
 }
 
 body {
@@ -30,8 +29,7 @@ h3 {
   font-size: 56px;
 }
 
-body p,
-a {
+body p{
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -43,19 +41,21 @@ a {
 a {
   color: #ffffff;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .navlink {
   color: #ffffff;
   transform: scale(1);
   font-weight: 400;
-  transition-duration: 0.15s;
+  transition: 0.15s ease;
 }
 
 .navlink:hover {
   color: #9f0908;
-  font-weight: 500;
-  transition-duration: 0.1s;
+  transition: 0.1s ease;
 }
 
 .nav-container {
@@ -63,20 +63,25 @@ a {
 }
 
 /*our_menu_price*/
-table,
-td {
+table{
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 32px;
   font-optical-sizing: auto;
   color: #675e54fd;
 }
-/*our_menu_price*/
+
 tr {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  align-items: center;
 }
+
+td:last-child {
+  margin-left: auto;
+  white-space: nowrap;
+}
+
 /*our_menu_price*/
 th {
   font-family: "Economica", sans-serif;
@@ -443,8 +448,8 @@ footer {
   }
 
   .header-logo {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height:40px;
     margin: 0 0;
     padding: 0 0;
   }
