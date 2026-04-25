@@ -40,11 +40,17 @@ a {
   font-size: 24px;
 }
 
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
 .navlink {
   color: #ffffff;
-  transform: scale(1);
+  transform: scale(1.05);
   font-weight: 400;
-  transition: 0.15s ease;
+  transition: color 0.15s ease;
 }
 
 .navlink:hover {
@@ -56,13 +62,21 @@ a {
   gap: 40px;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*our_menu_price*/
-table{
+table {
   font-weight: bold;
   font-size: 32px;
   color: rgba(103, 94, 84, 0.992);
   width: 100%;
   border-collapse: collapse;
+  margin: 0px;
 }
 
 td:first-child {
@@ -70,11 +84,9 @@ td:first-child {
 }
 
 td:last-child {
-  width: 10%;
   text-align: right;
-  width: 180px;
+  width: 160px;
 }
-
 
 /*our_menu_price*/
 th {
@@ -83,6 +95,7 @@ th {
   font-size: 56px;
   color: #000000e7;
   text-align: left;
+  padding-bottom: 16px;
 }
 
 footer {
@@ -142,13 +155,7 @@ footer {
   width: 24px;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
 
-  justify-content: space-between;
-  align-items: center;
-}
 
 .phone-button {
   border: solid white 2px;
@@ -267,7 +274,6 @@ img.pick-container-object {
 }
 
 .menu-text tbody {
-
   margin: 16px 0 0;
 }
 
@@ -275,20 +281,10 @@ img.pick-container-object {
   margin: 0 0 8px;
 }
 
-.menu-text-reverse tbody {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 16px 0 0;
-}
-
 .menu-text-reverse thead {
   margin: 0 0 16px;
 }
 
-.menu-text-reverse tr {
-  margin: 0 0 8px;
-}
 /*location*/
 .location-section-container {
   margin: 120px 0 0;
@@ -352,11 +348,11 @@ iframe {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
-   .hero-section-container h1{
+  .hero-section-container h1 {
     font-size: 80px;
   }
 
-  .hero-section-container p{
+  .hero-section-container p {
     font-size: 22px;
   }
 
@@ -364,23 +360,28 @@ iframe {
     display: none;
   }
 
+  .nav-list{
+  gap: 0px;
+  }
+
   .nav-container {
     flex-direction: row-reverse;
+    gap: 0px;
   }
 
   .top-header {
-    margin: 0 12px;
+    margin: 0 16px 0px 48px;
   }
 
   section h2 {
     font-size: 64px;
   }
 
-   .order-section {
+  .order-section {
     margin: 120px 12px;
   }
 
-   .order-section-object {
+  .order-section-object {
     font-size: 64px;
   }
 
@@ -388,7 +389,7 @@ iframe {
     margin: 128px 0 128px;
   }
 
-  .pick-container-object{
+  .pick-container-object {
     font-size: 48px;
   }
 
@@ -406,19 +407,18 @@ iframe {
     font-size: 64px;
   }
 
-  .menu-section th{
+  .menu-section th {
     font-size: 48px;
   }
 
-  .menu-section td{
+  .menu-section td {
     font-size: 22px;
   }
 
-   .footer-con {
+  .footer-con {
     margin: 0 16px;
     justify-content: space-between;
   }
-  
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -437,7 +437,7 @@ iframe {
 
   .header-logo {
     width: 40px;
-    height:40px;
+    height: 40px;
     margin: 0 0;
     padding: 0 0;
   }
@@ -455,6 +455,10 @@ iframe {
     gap: 8px;
   }
 
+  .nav-list {
+    display: none;
+}
+
   .hero-section-object {
     font-size: 48px;
     margin-top: 16px;
@@ -464,7 +468,6 @@ iframe {
 
   .hero-section-object h1 {
     font-size: 48px;
-
   }
 
   .hero-section-object + p {
@@ -488,7 +491,7 @@ iframe {
 
   .pick-con {
     flex-direction: column;
-    align-items:center; 
+    align-items: center;
     gap: 64px;
   }
 
@@ -500,11 +503,12 @@ iframe {
     font-size: 40px;
   }
 
-  .menu-con{
+  .menu-con {
     margin: 0px 0px;
   }
 
-  .menu-container-tonkatsu, .menu-container-spicy_miso,
+  .menu-container-tonkatsu,
+  .menu-container-spicy_miso,
   .menu-container-shio {
     display: flex;
     flex-direction: column;
@@ -512,7 +516,8 @@ iframe {
     gap: 8px;
   }
 
-  .menu-text, .menu-text-reverse {
+  .menu-text,
+  .menu-text-reverse {
     margin: 0;
     text-align: left;
   }
@@ -522,26 +527,25 @@ iframe {
     width: auto;
   }
 
-  .menu-section th{
+  .menu-section th {
     font-size: 40px;
   }
 
-  .menu-section td{
+  .menu-section td {
     font-size: 22px;
   }
 
-  .location-container-object{
+  .location-container-object {
     font-size: 22px;
     text-align: center;
     padding-left: 0%;
   }
 
-  .location-container{
+  .location-container {
     display: flex;
     align-items: center;
     margin: 32px 32px;
   }
-
 
   .location-section-object {
     font-size: 40px;
@@ -552,19 +556,23 @@ iframe {
     height: 32px;
     width: auto;
     margin-bottom: 8px;
-}
+  }
 
-   .footer-con {
+  .footer-con {
     margin: 0 16px;
     justify-content: space-between;
   }
 
-  .footer-logo{
+  .footer-logo {
     width: 44px;
     overflow: hidden;
   }
 
   .footer-logo img {
     display: block;
+  }
+
+  td:last-child {
+    width: 130px;
   }
 }
