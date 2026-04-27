@@ -8,7 +8,7 @@ https://silviosimon.developerakademie.net/Archiv/website_ramen_sakura/
 
 ## Features
 
-- 📋 Static restaurant menu (ramen, sides, drinks)
+- 📋 Static restaurant menu
 - 🎨 Clean Japanese-inspired design
 - 📱 Responsive layout for mobile and desktop
 - 🧩 Pure HTML & CSS (no JavaScript)
