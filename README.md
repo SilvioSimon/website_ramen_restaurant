@@ -3,6 +3,9 @@ A simple and modern static website for a fictional Japanese ramen restaurant cal
 ## Website
 https://silviosimon.developerakademie.net/Archiv/website_ramen_sakura/
 
+## Preview
+![Preview](/img/sakura_responsive.png)
+
 ## Features
 
 - 📋 Static restaurant menu (ramen, sides, drinks)
